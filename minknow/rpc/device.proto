@@ -3,6 +3,8 @@ syntax="proto3";
 import "minknow/rpc/rpc_options.proto";
 import "google/protobuf/wrappers.proto";
 
+option go_package="minknow_lims_interface/minknow/rpc/device";
+
 package ont.rpc.device;
 
 service DeviceService {

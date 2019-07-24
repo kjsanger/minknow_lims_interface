@@ -4,6 +4,8 @@ import "google/protobuf/descriptor.proto";
 
 package ont.rpc;
 
+option go_package="minknow_lims_interface/minknow/rpc";
+
 extend google.protobuf.FieldOptions {
     // Marks a field as required.
     //

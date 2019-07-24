@@ -4,6 +4,8 @@ import "minknow/rpc/acquisition.proto";
 import "minknow/rpc/device.proto";
 import "minknow/rpc/protocol.proto";
 
+option go_package="minknow_lims_interface/minknow/rpc/instance";
+
 package ont.rpc.instance;
 
 service InstanceService {

@@ -2,6 +2,8 @@ syntax="proto3";
 
 import "minknow/rpc/instance.proto";
 
+option go_package="minknow_lims_interface/minknow/rpc/manager";
+
 package ont.rpc.manager;
 
 service ManagerService {
